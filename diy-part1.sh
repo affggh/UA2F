@@ -19,6 +19,7 @@
 
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+sed -i '$a src-git ua2f https://github.com/lucikap/luci-app-ua2f' feeds.conf.default
 git clone https://github.com/Zxilly/UA2F package/UA2F
 git clone https://github.com/CHN-beta/rkp-ipid package/rkp-ipid
 
